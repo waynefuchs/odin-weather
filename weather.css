@@ -1,0 +1,81 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-card {
+    box-shadow: 0px 0px 3px 3px #cccccc;
+    border-radius: 5px;
+    width: 75vw;
+    padding: 2rem 1rem;
+}
+
+.current-weather {
+    font-size: 1.5rem;
+}
+
+.city-name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 100%;
+}
+
+.current-weather {
+    text-align: right;
+}
+
+.no-pad {
+    padding: 0;
+    margin: 0;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-height: 5rem;
+}
+
+.conditions {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-left: 3px solid black;
+    padding: 0 0 0 2rem;
+    height: 100%;
+}
+
+.forecast p {
+    padding: 0;
+    margin: 0;
+}
+
+.temperature {
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+    border-left: 3px solid black;
+    padding-left: 2rem;
+    height: 100%;
+}
+
+.fahrenheit:after {
+    content: '\00B0 F';
+}
